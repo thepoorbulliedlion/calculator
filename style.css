@@ -1,0 +1,54 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 20px;
+}
+
+#frame {
+  border: 5px solid black;
+  width: 390px;
+  height: 465px;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin: auto;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#display {
+  border: 5px solid black;
+  width: 80%;
+  height: 20%;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.button {
+  font-size: 40px;
+  margin: 5px;
+  border: 5px solid black;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.button:hover {
+  background-color: lightgrey;
+  cursor: pointer;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-between;
+}
